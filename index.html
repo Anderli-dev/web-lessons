@@ -5,20 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Семантичні теги HTML</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
-    <header>
-        <div><img src="1.jpg" title="Моє фото" alt="Моє фото" height="300px"></div>
-        <h1>Супрун Іван Романович</h1>
-        <h2>Звіт з дисципліни "Web-дизайн"</h2>
+    <header class="header">
+        <div><img src="/img/1.png" title="Моє фото" alt="Моє фото" height="166px"></div>
+        <h1 class="header_name">Супрун Іван Романович</h1>
+        <h2 class="header_titel">Звіт з дисципліни "Web-дизайн"</h2>
     </header>
 
-    <main>
-        <article><h3>Про мене</h3>
-        <p>My name is Van, I'm an programer , I'm a not profesional programer . I'm hired to people fulfill their fantasies, their
+    <main class="content">
+        <article class="article"><h3 class="article_title">Про мене</h3>
+        <p>My name is Van, I'm a programer , I'm a not profesional programer . I'm hired to people fulfill their fantasies, their
         inside fantasies. I was gonna be a game developer y'know, programing and plaing game. After a hundred and two developed
-        game I decided y'know I had enough, Then I got in to web-developing world. The client requests contain a lot of
+        game I decided y'know I had enough, Then I got in to web-developing world.</p>
+        <br>
+        <p>The client requests contain a lot of
         requirements, so I just decided to go y'know... full ♂stack♂ and change my entire house into a office... ♂full
         stack♂developer♂ now with a full office in my house and It's going really well. Site is 300 bucks and usually the client
         is pretty much hard to get really understand what he wants y'know and I have this long process that goes all the way up
@@ -26,35 +31,37 @@
         </p>
         </article>
 
-        <article>
-        <h3>Конспект за темами</h3>
+        <article class="article">
+        <h3 class="article_title">Конспект за темами:</h3>
         <ul>
-
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Bootstrap</li>
-            <li>Java Script</li>
+            <li class="li">HTML</li>
+            <li class="li">CSS</li>
+            <li class="li">Bootstrap</li>
+            <li class="li">Java Script</li>
         </ul>
         </article>
 
-        <article>
-        <h3>Лабараторні роботи:</h3>
+        <article class="article">
+        <h3 class="article_title">Лабараторні роботи:</h3>
         <ul>
-            <li><a href="https://github.com/Anderli-dev/web-lessons/blob/main/README.txt">Налаштування Git та GitHub</a></li>
-            <li><a href="./01/index.html">Створення найпростішого HTML документу.</a><a href="https://github.com/Anderli-dev/web-lessons/blob/main/01/index.html"> Код.</a></li>
-            <li><a href="./02/index.html">Використання основних html тегів.</a><a href="https://github.com/Anderli-dev/web-lessons/blob/main/02/index.html"> Код.</a></li>
+            <li class="li"><a href="https://github.com/Anderli-dev/web-lessons/blob/main/README.txt" class="ref">Налаштування Git та GitHub</a></li>
+            <li class="li"><a href="./01/index.html"  class="ref">Створення найпростішого HTML документу.</a><a href="https://github.com/Anderli-dev/web-lessons/blob/main/01/index.html"  class="ref"> Код.</a></li>
+            <li class="li"><a href="./02/index.html"  class="ref">Використання основних html тегів.</a><a href="https://github.com/Anderli-dev/web-lessons/blob/main/02/index.html"  class="ref"> Код.</a></li>
         </ul>
         </article>
 
     </main>
-    <footer>
-        <h3>Контакти</h3>
-        <ol>
-        <li><a href="https://github.com/AndrewNaum/web-lessons">Мій репозиторій на GitHub</a></li>
-        <li><a href="mailto:suprun.ivan@kmrf.kiev.ua">suprun.ivan@kmrf.kiev.ua</a></li>
-        <li><a href="tel:+380970257883">+38 097 025 78 83</a></li>
-        </ol>
+    <footer class="footer">
+        <address>
+        <h3 style="font-size: 30px; font-family: Arial;">Контакти</h3>
+        <ul class="footer_li">
+        <li class="footer_li"><a href="https://github.com/AndrewNaum/web-lessons">Мій репозиторій на GitHub</a></li>
+        <li class="footer_li"><a href="mailto:suprun.ivan@kmrf.kiev.ua">suprun.ivan@kmrf.kiev.ua</a></li>
+        <li class="footer_li"><a href="tel:+380970257883">+38 097 025 78 83</a></li>
+        </ul>
+        </address>
     </footer>
+    <p style="text-align: center; font-size: 10px;">Copyright © 2021 Супрун І.Р.</p>
 </body>
 
 </html>
