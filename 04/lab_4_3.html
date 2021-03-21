@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab4_3</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Roboto;
+            font-style: normal;
+
+        }
+        .body {
+            margin-left: calc(50% - 1000px/2);;
+            margin-right: calc(50% - 1000px/2);;
+            background:  #E1DDD3;
+            position: center;
+        }
+        .title{
+            position: absolute;
+            margin-top: 63px;
+            margin-left: 220px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 60px;
+            line-height: 70px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        .nav {
+            text-align: center;
+            width: 1000px;
+            height: 50px;
+            left: 220px;
+            top: 207px;
+            margin-bottom: 20px;
+
+            background: #CDBB82;
+        }
+        .nav ul li {
+            padding: 4px;
+            margin: 10px;
+            width: 200px;
+            height: 10px;
+            margin-right: 50px;
+            margin-left: 40px;
+
+            display: inline-table;
+            list-style-type: none;
+            font-size: 20px;
+            text-align: center;
+            text-decoration-line: underline;
+        }
+        .nav ul li:hover {
+            background: rgb(187, 141, 82);
+            color: rgb(221, 221, 221);
+        }
+        .ico{
+            margin-top: 35px;
+            margin-bottom: 30px;
+        }
+        .content{
+            position: absolute;
+            width: 1000px;
+            height: 480px;
+            background: #FFFFFF;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        .text{
+            text-align: justify;
+            line-height: 22px;
+        }
+        h2{
+            width: 418px;
+            height: 42px;
+            left: 285px;
+            top: 304px;
+            font-size: 36px;
+            line-height: 42px;
+            padding-top: 28px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <header>
+        <h1 class="title">Заголовок першого рівня</h1>
+        <img class="ico" src="../ico/disabled-.svg" height="142px">
+    </header>
+    <main>
+        <nav class="nav">
+            <ul>
+                <li>Перше посилання</li>
+                <li>Друге посилання</li>
+                <li>Третє посилання</li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h2>Заголовок другого рівня</h2>
+            <img class="img" src="../img/godzilla-chims.png" height="200px">
+
+            <p class="text" 
+            style= "display:inline-block;
+                    position: absolute;
+                    padding-left: 18px;
+                    padding-right: 50px;"> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus animi consequatur, eius exercitationem illo natus
+                nesciunt odio provident quia, quis repellendus. Blanditiis earum esse ex exercitationem, maiores modi ullam.
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus animi consequatur, eius exercitationem illo natus
+                nesciunt odio provident quia, quis repellendus. Blanditiis earum esse ex exercitationem, maiores modi ullam.
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus animi consequatur, eius exercitationem illo natus
+                nesciunt odio provident quia, quis repellendus. Blanditiis earum esse ex exercitationem, maiores modi ullam.
+            </p>
+            <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus animi consequatur, eius exercitationem illo natus
+                nesciunt odio provident quia, quis repellendus. Blanditiis earum esse ex exercitationem, maiores modi ullam.
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus animi consequatur, eius exercitationem illo natus
+                nesciunt odio provident quia, quis repellendus. Blanditiis earum esse ex exercitationem, maiores modi ullam.
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus animi consequatur, eius exercitationem illo natus
+                nesciunt odio provident quia, quis repellendus. Blanditiis earum esse ex exercitationem, maiores modi ullam.
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>
