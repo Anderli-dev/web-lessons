@@ -18,22 +18,20 @@
         .container{
             margin: auto;
             width: 500px;
-            height: 530px;
+            height: 450px;
             background-color: rgb(30, 39, 51);
             margin-top: 200px;
-            padding-left: 30px;
-            padding-right: 30px;
-            padding-top: 30px;
+            padding: 30px 30px 0 30px;
         }
         .switch{
-            
             margin: auto;
             background-color: gray;
         }
         .switch p{
             display: inline-block;
             text-align: center;
-            padding: 15px 84px 15px 84px;
+            width: 49%;
+            padding: 15px 0px 15px 0px;
             color: rgb(167, 167, 167);
             background-color: gray;
         }
@@ -50,19 +48,29 @@
         }
         input{
             background-color: rgb(30, 39, 51);
-            padding: 5px 0px 5px 5px;
-            margin:auto;
-            margin-bottom: 10px;
+            padding: 10px 0px 10px 5px;
             border: 1px solid;
             border-color: rgb(118, 118, 118);
-        }
-        input:nth-child(3){
-            display: block;
-            margin-left: 0;
+            margin-top: 25px;
+            width: 100%;
         }
         input:last-child{
-            display: block;
-            margin-left: 0;
+            background-color:rgb(44, 168, 116);
+            color: white;
+            font-size: 20px;
+        }
+        .firstname{
+            width: 47%;
+            margin-top: 0px;
+        }
+        .lastName{
+            width: 47%;
+            float: right;
+            margin-top: 0px;
+        }
+        .login-button{
+            padding-top: 15px;
+            padding-bottom: 15px;
         }
     </style>
     <title>Document</title>
@@ -76,11 +84,11 @@
         <div>
             <h2>Sing Up for Free</h2>
             <form action="#">
-                <input class="username" type="name" name="name" placeholder="First name*">
-                <input class="password" type="name" name="surname" placeholder="Last name*">
-                <input class="password" type="email" name="email" placeholder="Email Address*">
-                <input class="password" type="password" name="password" placeholder="Set A Password*">
-                <input class="login-button" type="submit" value="GET STARTED*">
+                <input class="firstname" type="name" name="name" placeholder="First name*">
+                <input class="lastName" type="name" name="lastName" placeholder="Last name*">
+                <input type="email" name="email" placeholder="Email Address*">
+                <input type="password" name="password" placeholder="Set A Password*">
+                <input class="login-button" type="submit" value="GET STARTED">
             </form>
         </div>
     </div>
