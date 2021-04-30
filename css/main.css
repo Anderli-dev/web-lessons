@@ -57,6 +57,19 @@
   margin-right: 50px;
   margin-bottom: 33px;
 }
+.article:last-child {
+  height: 600px;
+  background-color: #fcfbfc;
+  filter: drop-shadow(2.5px 4.33px 2.5px rgba(0, 0, 0, 0.14));
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-top: 33px;
+  padding-bottom: 88px;
+
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 33px;
+}
 
 .article_title {
   font-size: 30px;
